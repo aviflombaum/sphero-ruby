@@ -1,0 +1,30 @@
+GIT
+  remote: git@github.com:hybridgroup/sphero.git
+  revision: 078686f516b1c028c62abf24fedad38aa9b97c38
+  specs:
+    sphero (1.5.3)
+      rubyserial (>= 0.2.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    ffi (1.9.10)
+    method_source (0.8.2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rubyserial (0.2.4)
+      ffi (~> 1.9.3)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  sphero!
+
+BUNDLED WITH
+   1.10.6
